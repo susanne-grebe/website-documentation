@@ -17,4 +17,8 @@ Here you can add, edit and delete content like: Images, Videos, Podcasts & Text
 
 ## Link
 
+[Contentful Documentation](/collections/contentful)
+
+### Website
+
 <a href="https://contentful.com" class="text-info lead" target="_blank">https://contentful.com</a>
