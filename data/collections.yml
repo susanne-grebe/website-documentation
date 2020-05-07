@@ -49,7 +49,6 @@
       title: Contentful Options
       articles:
         - file: ../content/Contentful/contentful-editor/index.md
-        - file: ../content/Contentful/contentful-editor/extended.md
         - file: ../content/Contentful/contentful-media/index.md
         - file: ../content/Contentful/contentful-revert/index.md
 
