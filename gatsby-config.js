@@ -5,7 +5,7 @@ module.exports = {
     // You'd normally use a description like
     // "Advice and answers by the MyCompany-Team"
     description: `A detailed documentation on settings & usage of https://www.susanne-grebe.de`,
-    siteUrl: `https://help.dferber.de/`,
+    siteUrl: `https://musing-mclean-164412.netlify.app/`,
     language: "en",
     texts: {
       allCollectionsText: "All Collections",
@@ -97,6 +97,21 @@ module.exports = {
       options: {
         pathToConfigModule: `src/utils/typography`,
       },
+    },
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://musing-mclean-164412.netlify.app/',
+        sitemap: 'https://musing-mclean-164412.netlify.app//sitemap.xml',
+        env: {
+          development: {
+            policy: [{ userAgent: '*', disallow: ['/'] }]
+          },
+          production: {
+            policy: [{ userAgent: '*', disallow: ['/'] }]
+          }
+        }
+      }
     }
   ],
 }
