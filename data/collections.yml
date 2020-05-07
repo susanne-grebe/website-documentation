@@ -71,3 +71,9 @@
     - file: ../content/Home-Page/home-details/index.md
     - file: ../content/Home-Page/home-seo/index.md
     - file: ../content/Home-Page/home-hero/index.md
+    - file: ../content/Home-Page/home-coaching/index.md
+    - file: ../content/Home-Page/home-mediation/index.md
+    - file: ../content/Home-Page/home-workshops/index.md
+    - file: ../content/Home-Page/home-about/index.md
+    - file: ../content/Home-Page/home-overview/index.md
+    - file: ../content/Home-Page/home-reviews/index.md
