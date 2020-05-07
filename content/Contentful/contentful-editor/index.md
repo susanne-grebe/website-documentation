@@ -248,7 +248,7 @@ There are 2 options when selecting this button.
 
 ### 1: Add new media file
 
-Is to create new media. How this is done is explained in [Contentful Media](/articles/Contentful/contentful-media/)
+Is to create new media. How this is done is explained in [Contentful Media](/articles/Contentful/contentful-media/#languages)
 
 ### 2: Link existing media
 
