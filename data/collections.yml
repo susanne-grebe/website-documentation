@@ -40,8 +40,17 @@
   title: Contentful Info
   description: An overview of all options and important settings in Contentful
   icon: "FaRegEdit"
-  articles:
-    - file: ../content/Contentful/contentful-details/index.md
+  sections:
+    - id: contentful-details
+      title: Details
+      articles:
+        - file: ../content/Contentful/contentful-details/index.md
+    - id: editor-details
+      title: Editor Options
+      articles:
+        - file: ../content/Contentful/contentful-editor/index.md
+        - file: ../content/Contentful/contentful-editor/extended.md
+        - file: ../content/Contentful/contentful-media/index.md
 
 - id: local-seo
   title: Local SEO Info
