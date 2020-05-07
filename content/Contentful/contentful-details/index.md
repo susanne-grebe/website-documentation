@@ -34,6 +34,12 @@ __Here are some of the features that make Contentful special:__
 - Uncluttered UI. Tested to achieve the best results, Contentful offers you a beautiful and simple user interface.
 - Mobile and web, all with the same system. The API lets you deliver your content with the click of a button. Mobile, web and any other platform you can imagine can receive your content as soon as you publish it.
 
+## How To Login With Contentful
+
+1. Go to <a href="https://github.com/login" target="_blank" rel="nofollow noopener noreferrer">Github Login</a> and login with your username & password. 
+2. Once logged in go to <a href="https://be.contentful.com/login" target="_blank" rel="nofollow noopener noreferrer">Contentful Login</a>
+3. Click on the github button below the login field, this will log you in into your dashboard.
+
 ## Contentful Documentation
 
 https://www.contentful.com/developers/docs/
