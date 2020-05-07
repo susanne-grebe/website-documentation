@@ -69,3 +69,4 @@
   icon: "FaHome"
   articles:
     - file: ../content/Home-Page/home-details/index.md
+    - file: ../content/Home-Page/home-seo/index.md
