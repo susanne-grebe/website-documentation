@@ -11,6 +11,8 @@ import * as icons from "../utils/icons"
 import { rhythm } from "../utils/typography"
 import Logo from "./logo"
 
+import './style.css'
+
 function SearchInput(props) {
   const [text, setText] = React.useState("")
   const [focused, setFocused] = React.useState(false)
@@ -245,41 +247,41 @@ class Layout extends React.Component {
               <SearchInput />
             </header>
           ) : (
-            <header
-              sx={{
-                marginLeft: `auto`,
-                marginRight: `auto`,
-                maxWidth: rhythm(30),
-                px: [2, 4],
-                pt: 4,
-                pb: 2,
-              }}
-            >
-              <h3
+              <header
                 sx={{
-                  mt: 0,
-                  mb: 3,
+                  marginLeft: `auto`,
+                  marginRight: `auto`,
+                  maxWidth: rhythm(30),
+                  px: [2, 4],
+                  pt: 4,
+                  pb: 2,
                 }}
               >
-                <Link
+                <h3
                   sx={{
-                    boxShadow: `none`,
-                    textDecoration: `none`,
-                    color: `logoColor`,
-                    "&:hover": {
-                      textDecoration: "none",
-                      color: "logoColor",
-                    },
+                    mt: 0,
+                    mb: 3,
                   }}
-                  to={`/`}
                 >
-                  <Logo color="white" size={["36px", "48px"]} />
-                </Link>
-              </h3>
-              {location.pathname === rootPath && <p>{description}</p>}
-              <SearchInput />
-            </header>
-          )}
+                  <Link
+                    sx={{
+                      boxShadow: `none`,
+                      textDecoration: `none`,
+                      color: `logoColor`,
+                      "&:hover": {
+                        textDecoration: "none",
+                        color: "logoColor",
+                      },
+                    }}
+                    to={`/`}
+                  >
+                    <Logo color="white" size={["36px", "48px"]} />
+                  </Link>
+                </h3>
+                {location.pathname === rootPath && <p>{description}</p>}
+                <SearchInput />
+              </header>
+            )}
         </div>
         <div
           style={{
@@ -312,17 +314,8 @@ class Layout extends React.Component {
           <div sx={{ mt: 2 }}>
             Built with
             {` `}
-            {/*
-              PLEASE DO NOT REMOVE THIS LINK.
-
-              A lot of unpaid time is spent on making and maintaining the 
-              center. Nothing is expected in return. Keeping this link here
-              is the only small thing asked in return. So please don't remove it.
-
-              You are amazing for keeping it here, thank you.
-            */}
             <a
-              href="https://help.dferber.de"
+              href="https://codemind.dev"
               target="_blank"
               sx={{
                 color: "footerTextColor",
@@ -332,7 +325,7 @@ class Layout extends React.Component {
                 },
               }}
             >
-              Dom's Help Center
+              Codemind Help Center
             </a>
           </div>
         </footer>
