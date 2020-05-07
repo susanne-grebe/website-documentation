@@ -12,8 +12,8 @@ function concatArticles(node) {
     ...(Array.isArray(node.articles) ? node.articles : []),
     ...(Array.isArray(node.sections)
       ? node.sections.flatMap(section =>
-          Array.isArray(section.articles) ? section.articles : []
-        )
+        Array.isArray(section.articles) ? section.articles : []
+      )
       : []),
   ]
 }
@@ -32,10 +32,10 @@ class HelpCenterIndex extends React.Component {
 
           const icon = node.icon
             ? jsx(
-                icons[node.icon],
-                { sx: { color: "iconColor" }, size: "2rem" },
-                null
-              )
+              icons[node.icon],
+              { sx: { color: "iconColor" }, size: "2rem" },
+              null
+            )
             : null
 
           return (

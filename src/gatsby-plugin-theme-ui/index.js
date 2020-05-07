@@ -30,6 +30,7 @@ export default {
     logoColor: "white",
     footerTextColor: "#a8b6c2",
     footerTextHoverColor: "#a8b6c2",
+    contentImageWidth: "714px !important"
   },
   radii: [0, 2, 4, 8],
   fonts: {
