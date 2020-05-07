@@ -1,10 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: `Free Help Center`,
-    author: `Dominik Ferber`,
+    title: `Documentation Website`,
+    author: `Pascal Meers`,
     // You'd normally use a description like
     // "Advice and answers by the MyCompany-Team"
-    description: `Get a free self-hosted Help Center like this one`,
+    description: `A detailed documentation on settings & usage of https://www.susanne-grebe.de`,
     siteUrl: `https://help.dferber.de/`,
     language: "en",
     texts: {
