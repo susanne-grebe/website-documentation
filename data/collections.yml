@@ -76,3 +76,12 @@
     - file: ../content/Home-Page/home-about/index.md
     - file: ../content/Home-Page/home-overview/index.md
     - file: ../content/Home-Page/home-reviews/index.md
+
+- id: page
+  title: Page Information
+  description: An overview of all options and settings that are linked to pages.
+  icon: "FaPager"
+  articles:
+    - file: ../content/Page/page/index.md
+    - file: ../content/Page/page-section/index.md
+    - file: ../content/Page/page-cta/index.md

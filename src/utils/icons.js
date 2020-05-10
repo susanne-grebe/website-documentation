@@ -32,6 +32,7 @@ export {
   FaUser,
   FaUsersCog,
   FaUsers,
+  FaPager,
   //
   // Comments and Chats --------------------------------------------------------
   FaCommentAlt,
