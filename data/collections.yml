@@ -85,3 +85,11 @@
     - file: ../content/Page/page/index.md
     - file: ../content/Page/page-section/index.md
     - file: ../content/Page/page-cta/index.md
+
+- id: blog
+  title: Blog Information
+  description: An overview of all options and settings for the blog and blog posts.
+  icon: "FaBlog"
+  articles:
+    - file: ../content/Blog/blog/index.md
+    - file: ../content/Blog/blog-post/index.md
