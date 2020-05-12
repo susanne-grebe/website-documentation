@@ -34,6 +34,7 @@ export {
   FaUsers,
   FaPager,
   FaBlog,
+  FaRegCaretSquareDown,
   //
   // Comments and Chats --------------------------------------------------------
   FaCommentAlt,
