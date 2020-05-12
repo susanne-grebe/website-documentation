@@ -23,7 +23,7 @@
 #         - file: ../content/whales/index.md
 
 - id: account-details
-  title: Account Info
+  title: Account Information
   description: Brief overview of all the accounts created for the website
   icon: "FaCogs"
   articles:
@@ -37,7 +37,7 @@
     - file: ../content/Accounts/Ionos-Dashboard/index.md
 
 - id: contentful
-  title: Contentful Info
+  title: Contentful Information
   description: An overview of all options and important settings in Contentful
   icon: "FaRegEdit"
   sections:
@@ -54,7 +54,7 @@
 
 
 - id: local-seo
-  title: Local SEO Info
+  title: Local SEO Information
   description: An overview of all settings and usage of the local seo content
   icon: "FaSearch"
   articles:
@@ -63,7 +63,7 @@
     - file: ../content/Local-Seo/seo-content/index.md
 
 - id: home-page
-  title: Home Page Info
+  title: Home Page Information
   description: An overview of all settings and usage of the home page
   icon: "FaHome"
   articles:
@@ -93,3 +93,17 @@
   articles:
     - file: ../content/Blog/blog/index.md
     - file: ../content/Blog/blog-post/index.md
+
+- id: author
+  title: Author Information
+  description: An overview of all options and settings for the author content.
+  icon: "FaUserEdit"
+  articles:
+    - file: ../content/Author/author/index.md
+
+- id: footer
+  title: Footer Information
+  description: An overview of all options and settings for the footer content.
+  icon: "FaRegCaretSquareDown"
+  articles:
+    - file: ../content/Footer/footer/index.md
